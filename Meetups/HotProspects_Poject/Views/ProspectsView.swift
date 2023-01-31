@@ -153,7 +153,7 @@ struct ProspectsView: View {
         }
     }
     
-    //filtering on the pepple
+    // MARK: filtering on the pepple.
     var filteredProspects: [Prospect] {
         switch filterType {
         case .none:
@@ -168,6 +168,7 @@ struct ProspectsView: View {
             return prospects.people.reversed()
         }
     }
+    
     // how does SwiftUI know to refresh the view when the property changed?. It does not know.
     /*
      When we added an @EnvironmentObject property to ProspectsView, we also asked SwiftUI to reinvoke the body property whenever that property changes. So, whenever we insert a new person into the people array its @Published property wrapper will announce the update to all views that are watching it, and SwiftUI will reinvoke the body property of ProspectsView. That in turn will calculate our computed property again, so the List will change
