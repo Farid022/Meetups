@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E3B0B51297D1B3A00923CF9 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B50297D1B3A00923CF9 /* Prospect.swift */; };
-		3E3B0B53297D1B4F00923CF9 /* Prospects_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B52297D1B4F00923CF9 /* Prospects_VM.swift */; };
-		3E3B0B57297D1B6100923CF9 /* HP_HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B54297D1B6100923CF9 /* HP_HomeView.swift */; };
-		3E3B0B58297D1B6100923CF9 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B55297D1B6100923CF9 /* MeView.swift */; };
-		3E3B0B59297D1B6100923CF9 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B56297D1B6100923CF9 /* ProspectsView.swift */; };
-		3E3B0B9B297E5B3E00923CF9 /* DedailView_HP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B9A297E5B3E00923CF9 /* DedailView_HP.swift */; };
 		3EBACBED297920F90091CF82 /* MeetupsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACBEC297920F90091CF82 /* MeetupsApp.swift */; };
 		3EBACBF1297920FB0091CF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBACBF0297920FB0091CF82 /* Assets.xcassets */; };
 		3EBACBF4297920FB0091CF82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBACBF3297920FB0091CF82 /* Preview Assets.xcassets */; };
@@ -32,12 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E3B0B50297D1B3A00923CF9 /* Prospect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
-		3E3B0B52297D1B4F00923CF9 /* Prospects_VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prospects_VM.swift; sourceTree = "<group>"; };
-		3E3B0B54297D1B6100923CF9 /* HP_HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HP_HomeView.swift; sourceTree = "<group>"; };
-		3E3B0B55297D1B6100923CF9 /* MeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
-		3E3B0B56297D1B6100923CF9 /* ProspectsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
-		3E3B0B9A297E5B3E00923CF9 /* DedailView_HP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedailView_HP.swift; sourceTree = "<group>"; };
 		3EBACBE9297920F90091CF82 /* Meetups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBACBEC297920F90091CF82 /* MeetupsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupsApp.swift; sourceTree = "<group>"; };
 		3EBACBF0297920FB0091CF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,43 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E3B0B4F297D1B2200923CF9 /* HotProspects_Poject */ = {
-			isa = PBXGroup;
-			children = (
-				3E3B0B5C297D1B7A00923CF9 /* View Models */,
-				3E3B0B5B297D1B7000923CF9 /* Models */,
-				3E3B0B5A297D1B6700923CF9 /* Views */,
-			);
-			path = HotProspects_Poject;
-			sourceTree = "<group>";
-		};
-		3E3B0B5A297D1B6700923CF9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3E3B0B54297D1B6100923CF9 /* HP_HomeView.swift */,
-				3E3B0B55297D1B6100923CF9 /* MeView.swift */,
-				3E3B0B56297D1B6100923CF9 /* ProspectsView.swift */,
-				3E3B0B9A297E5B3E00923CF9 /* DedailView_HP.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3E3B0B5B297D1B7000923CF9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				3E3B0B50297D1B3A00923CF9 /* Prospect.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		3E3B0B5C297D1B7A00923CF9 /* View Models */ = {
-			isa = PBXGroup;
-			children = (
-				3E3B0B52297D1B4F00923CF9 /* Prospects_VM.swift */,
-			);
-			path = "View Models";
-			sourceTree = "<group>";
-		};
 		3EAAED532988DA980037D757 /* MeetUp_project */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +88,6 @@
 			children = (
 				3EAAED532988DA980037D757 /* MeetUp_project */,
 				3EBACBEC297920F90091CF82 /* MeetupsApp.swift */,
-				3E3B0B4F297D1B2200923CF9 /* HotProspects_Poject */,
 				3EBACBFD297921730091CF82 /* Info.plist */,
 				3EBACBF0297920FB0091CF82 /* Assets.xcassets */,
 				3EBACBF2297920FB0091CF82 /* Preview Content */,
@@ -262,24 +212,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E3B0B9B297E5B3E00923CF9 /* DedailView_HP.swift in Sources */,
 				3EBACC0B297925130091CF82 /* HomeView.swift in Sources */,
 				3EBACC03297924460091CF82 /* FileManage-Doc-directory.swift in Sources */,
-				3E3B0B53297D1B4F00923CF9 /* Prospects_VM.swift in Sources */,
 				3EBACC09297924FB0091CF82 /* HomeView_VM.swift in Sources */,
-				3E3B0B51297D1B3A00923CF9 /* Prospect.swift in Sources */,
 				3EBACC05297924630091CF82 /* LocationFetcher.swift in Sources */,
 				3EBACC07297924AD0091CF82 /* ImagePicker.swift in Sources */,
-				3E3B0B57297D1B6100923CF9 /* HP_HomeView.swift in Sources */,
 				3EBACC13297934CB0091CF82 /* MeetUp_DetailView_VM.swift in Sources */,
 				3EBACBFF297922740091CF82 /* ImageSaver.swift in Sources */,
 				3EBACBED297920F90091CF82 /* MeetupsApp.swift in Sources */,
 				3EBACC1729794CE50091CF82 /* MeetUp_AddView_Vm.swift in Sources */,
-				3E3B0B59297D1B6100923CF9 /* ProspectsView.swift in Sources */,
 				3EBACC01297923BC0091CF82 /* Meetup.swift in Sources */,
 				3EBACC15297935080091CF82 /* MeetUp_DetailView.swift in Sources */,
 				3EBACC11297927A30091CF82 /* Location.swift in Sources */,
-				3E3B0B58297D1B6100923CF9 /* MeView.swift in Sources */,
 				3EBACC0F297927360091CF82 /* Meetup_addView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

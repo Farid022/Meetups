@@ -11,7 +11,7 @@ import SwiftUI
 struct MeetupsApp: App {
     var body: some Scene {
         WindowGroup {
-            HP_HomeView()
+            HomeView()
         }
     }
 }
