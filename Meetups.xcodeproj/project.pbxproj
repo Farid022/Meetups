@@ -69,14 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E3B0B4F297D1B2200923CF9 /* HotProspects */ = {
+		3E3B0B4F297D1B2200923CF9 /* HotProspects_anotherApp */ = {
 			isa = PBXGroup;
 			children = (
 				3E3B0B5C297D1B7A00923CF9 /* View Models */,
 				3E3B0B5B297D1B7000923CF9 /* Models */,
 				3E3B0B5A297D1B6700923CF9 /* Views */,
 			);
-			path = HotProspects;
+			path = HotProspects_anotherApp;
 			sourceTree = "<group>";
 		};
 		3E3B0B5A297D1B6700923CF9 /* Views */ = {
@@ -129,7 +129,7 @@
 				3EBACBFA2979210D0091CF82 /* Models */,
 				3EBACBFB297921200091CF82 /* ViewModels */,
 				3EBACBFC2979212C0091CF82 /* Views */,
-				3E3B0B4F297D1B2200923CF9 /* HotProspects */,
+				3E3B0B4F297D1B2200923CF9 /* HotProspects_anotherApp */,
 				3EBACBFD297921730091CF82 /* Info.plist */,
 				3EBACBF0297920FB0091CF82 /* Assets.xcassets */,
 				3EBACBF2297920FB0091CF82 /* Preview Content */,
