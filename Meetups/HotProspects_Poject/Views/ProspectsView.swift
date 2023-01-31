@@ -90,7 +90,9 @@ struct ProspectsView: View {
                     }
                 }
                 .onDelete(perform: prospects.deleteProspect)
-//                .onDelete { ofset in
+                
+//this does not work, i don't know what happened to the index of each prospect after sorting.
+//                    .onDelete { ofset in
 //                    for i in ofset {
 //                        guard let found = filteredProspects.firstIndex(where: { $0.id == filteredProspects[i].id }) else { return }
 //                        let index: IndexSet = IndexSet(integer: found)
