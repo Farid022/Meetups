@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3B0B51297D1B3A00923CF9 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B50297D1B3A00923CF9 /* Prospect.swift */; };
+		3E3B0B53297D1B4F00923CF9 /* Prospects_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B52297D1B4F00923CF9 /* Prospects_VM.swift */; };
+		3E3B0B57297D1B6100923CF9 /* HP_HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B54297D1B6100923CF9 /* HP_HomeView.swift */; };
+		3E3B0B58297D1B6100923CF9 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B55297D1B6100923CF9 /* MeView.swift */; };
+		3E3B0B59297D1B6100923CF9 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B56297D1B6100923CF9 /* ProspectsView.swift */; };
+		3E3B0B9B297E5B3E00923CF9 /* DedailView_HP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0B9A297E5B3E00923CF9 /* DedailView_HP.swift */; };
 		3EBACBED297920F90091CF82 /* MeetupsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACBEC297920F90091CF82 /* MeetupsApp.swift */; };
-		3EBACBEF297920F90091CF82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACBEE297920F90091CF82 /* ContentView.swift */; };
 		3EBACBF1297920FB0091CF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBACBF0297920FB0091CF82 /* Assets.xcassets */; };
 		3EBACBF4297920FB0091CF82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBACBF3297920FB0091CF82 /* Preview Assets.xcassets */; };
+		3EBACBFF297922740091CF82 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACBFE297922740091CF82 /* ImageSaver.swift */; };
+		3EBACC01297923BC0091CF82 /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC00297923BC0091CF82 /* Meetup.swift */; };
+		3EBACC03297924460091CF82 /* FileManage-Doc-directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC02297924460091CF82 /* FileManage-Doc-directory.swift */; };
+		3EBACC05297924630091CF82 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC04297924630091CF82 /* LocationFetcher.swift */; };
+		3EBACC07297924AD0091CF82 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC06297924AD0091CF82 /* ImagePicker.swift */; };
+		3EBACC09297924FB0091CF82 /* HomeView_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC08297924FB0091CF82 /* HomeView_VM.swift */; };
+		3EBACC0B297925130091CF82 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC0A297925130091CF82 /* HomeView.swift */; };
+		3EBACC0F297927360091CF82 /* Meetup_addView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC0E297927360091CF82 /* Meetup_addView.swift */; };
+		3EBACC11297927A30091CF82 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC10297927A30091CF82 /* Location.swift */; };
+		3EBACC13297934CB0091CF82 /* MeetUp_DetailView_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC12297934CB0091CF82 /* MeetUp_DetailView_VM.swift */; };
+		3EBACC15297935080091CF82 /* MeetUp_DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC14297935080091CF82 /* MeetUp_DetailView.swift */; };
+		3EBACC1729794CE50091CF82 /* MeetUp_AddView_Vm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBACC1629794CE50091CF82 /* MeetUp_AddView_Vm.swift */; };
+		3ED5C15D297D1721007C711E /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 3ED5C15C297D1721007C711E /* CodeScanner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3B0B50297D1B3A00923CF9 /* Prospect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		3E3B0B52297D1B4F00923CF9 /* Prospects_VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prospects_VM.swift; sourceTree = "<group>"; };
+		3E3B0B54297D1B6100923CF9 /* HP_HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HP_HomeView.swift; sourceTree = "<group>"; };
+		3E3B0B55297D1B6100923CF9 /* MeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		3E3B0B56297D1B6100923CF9 /* ProspectsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		3E3B0B9A297E5B3E00923CF9 /* DedailView_HP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedailView_HP.swift; sourceTree = "<group>"; };
 		3EBACBE9297920F90091CF82 /* Meetups.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetups.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBACBEC297920F90091CF82 /* MeetupsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupsApp.swift; sourceTree = "<group>"; };
-		3EBACBEE297920F90091CF82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3EBACBF0297920FB0091CF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EBACBF3297920FB0091CF82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EBACBFD297921730091CF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3EBACBFE297922740091CF82 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		3EBACC00297923BC0091CF82 /* Meetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetup.swift; sourceTree = "<group>"; };
+		3EBACC02297924460091CF82 /* FileManage-Doc-directory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManage-Doc-directory.swift"; sourceTree = "<group>"; };
+		3EBACC04297924630091CF82 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		3EBACC06297924AD0091CF82 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3EBACC08297924FB0091CF82 /* HomeView_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView_VM.swift; sourceTree = "<group>"; };
+		3EBACC0A297925130091CF82 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3EBACC0E297927360091CF82 /* Meetup_addView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetup_addView.swift; sourceTree = "<group>"; };
+		3EBACC10297927A30091CF82 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3EBACC12297934CB0091CF82 /* MeetUp_DetailView_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUp_DetailView_VM.swift; sourceTree = "<group>"; };
+		3EBACC14297935080091CF82 /* MeetUp_DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUp_DetailView.swift; sourceTree = "<group>"; };
+		3EBACC1629794CE50091CF82 /* MeetUp_AddView_Vm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUp_AddView_Vm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +62,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED5C15D297D1721007C711E /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E3B0B4F297D1B2200923CF9 /* HotProspects */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B0B5C297D1B7A00923CF9 /* View Models */,
+				3E3B0B5B297D1B7000923CF9 /* Models */,
+				3E3B0B5A297D1B6700923CF9 /* Views */,
+			);
+			path = HotProspects;
+			sourceTree = "<group>";
+		};
+		3E3B0B5A297D1B6700923CF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B0B54297D1B6100923CF9 /* HP_HomeView.swift */,
+				3E3B0B55297D1B6100923CF9 /* MeView.swift */,
+				3E3B0B56297D1B6100923CF9 /* ProspectsView.swift */,
+				3E3B0B9A297E5B3E00923CF9 /* DedailView_HP.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E3B0B5B297D1B7000923CF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B0B50297D1B3A00923CF9 /* Prospect.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E3B0B5C297D1B7A00923CF9 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B0B52297D1B4F00923CF9 /* Prospects_VM.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		3EBACBE0297920F90091CF82 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +126,11 @@
 			isa = PBXGroup;
 			children = (
 				3EBACBEC297920F90091CF82 /* MeetupsApp.swift */,
-				3EBACBEE297920F90091CF82 /* ContentView.swift */,
+				3EBACBFA2979210D0091CF82 /* Models */,
+				3EBACBFB297921200091CF82 /* ViewModels */,
+				3EBACBFC2979212C0091CF82 /* Views */,
+				3E3B0B4F297D1B2200923CF9 /* HotProspects */,
+				3EBACBFD297921730091CF82 /* Info.plist */,
 				3EBACBF0297920FB0091CF82 /* Assets.xcassets */,
 				3EBACBF2297920FB0091CF82 /* Preview Content */,
 			);
@@ -65,6 +143,39 @@
 				3EBACBF3297920FB0091CF82 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EBACBFA2979210D0091CF82 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3EBACBFE297922740091CF82 /* ImageSaver.swift */,
+				3EBACC00297923BC0091CF82 /* Meetup.swift */,
+				3EBACC02297924460091CF82 /* FileManage-Doc-directory.swift */,
+				3EBACC04297924630091CF82 /* LocationFetcher.swift */,
+				3EBACC10297927A30091CF82 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3EBACBFB297921200091CF82 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3EBACC06297924AD0091CF82 /* ImagePicker.swift */,
+				3EBACC08297924FB0091CF82 /* HomeView_VM.swift */,
+				3EBACC12297934CB0091CF82 /* MeetUp_DetailView_VM.swift */,
+				3EBACC1629794CE50091CF82 /* MeetUp_AddView_Vm.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3EBACBFC2979212C0091CF82 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EBACC0A297925130091CF82 /* HomeView.swift */,
+				3EBACC0E297927360091CF82 /* Meetup_addView.swift */,
+				3EBACC14297935080091CF82 /* MeetUp_DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +194,9 @@
 			dependencies = (
 			);
 			name = Meetups;
+			packageProductDependencies = (
+				3ED5C15C297D1721007C711E /* CodeScanner */,
+			);
 			productName = Meetups;
 			productReference = 3EBACBE9297920F90091CF82 /* Meetups.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 3EBACBE0297920F90091CF82;
+			packageReferences = (
+				3ED5C15B297D1721007C711E /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 3EBACBEA297920F90091CF82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +254,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EBACBEF297920F90091CF82 /* ContentView.swift in Sources */,
+				3E3B0B9B297E5B3E00923CF9 /* DedailView_HP.swift in Sources */,
+				3EBACC0B297925130091CF82 /* HomeView.swift in Sources */,
+				3EBACC03297924460091CF82 /* FileManage-Doc-directory.swift in Sources */,
+				3E3B0B53297D1B4F00923CF9 /* Prospects_VM.swift in Sources */,
+				3EBACC09297924FB0091CF82 /* HomeView_VM.swift in Sources */,
+				3E3B0B51297D1B3A00923CF9 /* Prospect.swift in Sources */,
+				3EBACC05297924630091CF82 /* LocationFetcher.swift in Sources */,
+				3EBACC07297924AD0091CF82 /* ImagePicker.swift in Sources */,
+				3E3B0B57297D1B6100923CF9 /* HP_HomeView.swift in Sources */,
+				3EBACC13297934CB0091CF82 /* MeetUp_DetailView_VM.swift in Sources */,
+				3EBACBFF297922740091CF82 /* ImageSaver.swift in Sources */,
 				3EBACBED297920F90091CF82 /* MeetupsApp.swift in Sources */,
+				3EBACC1729794CE50091CF82 /* MeetUp_AddView_Vm.swift in Sources */,
+				3E3B0B59297D1B6100923CF9 /* ProspectsView.swift in Sources */,
+				3EBACC01297923BC0091CF82 /* Meetup.swift in Sources */,
+				3EBACC15297935080091CF82 /* MeetUp_DetailView.swift in Sources */,
+				3EBACC11297927A30091CF82 /* Location.swift in Sources */,
+				3E3B0B58297D1B6100923CF9 /* MeView.swift in Sources */,
+				3EBACC0F297927360091CF82 /* Meetup_addView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +404,11 @@
 				DEVELOPMENT_TEAM = 78B5GQU47L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meetups/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We want to access your camerra";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We want to access your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "we want to save your qrCode";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +438,11 @@
 				DEVELOPMENT_TEAM = 78B5GQU47L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meetups/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We want to access your camerra";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We want to access your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "we want to save your qrCode";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +483,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3ED5C15B297D1721007C711E /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3ED5C15C297D1721007C711E /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3ED5C15B297D1721007C711E /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3EBACBE1297920F90091CF82 /* Project object */;
 }
